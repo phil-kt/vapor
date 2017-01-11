@@ -1,0 +1,31 @@
+
+.bounce {
+  position: absolute;
+  animation: moveX 30s linear infinite alternate,
+  moveY 35s linear infinite alternate;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  width: 72px;
+}
+
+@keyframes moveX {
+  0% { left: 0%; }
+  100% { left: calc(100% - 64px); }
+}
+
+@keyframes moveY {
+  0% { top: 0%; }
+  100% { top: calc(100% - 64px); }
+}
+
+.icon .description {
+  display: none;
+  margin: 0;
+  font-family: "Comic Sans MS", sans-serif;
+  width: 72px;
+}
+
+.icon:hover .description{
+  display: inherit;
+}

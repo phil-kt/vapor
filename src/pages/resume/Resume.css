@@ -1,0 +1,75 @@
+.Resume {
+  height: 100vh;
+}
+
+.Resume img {
+  position: absolute;
+}
+
+#bopit {
+  width: 130px;
+  left: 100px;
+  top: 50px;
+}
+
+#hamtaro {
+  width: 100px;
+  left: 10px;
+  top: 200px;
+}
+
+#dinosaur {
+  width: 120px;
+  left: 50px;
+  top: 375px;
+}
+
+#simpsons {
+  width: 200px;
+  bottom: 0;
+  left: 0;
+}
+
+#snorlax {
+  width: 150px;
+  right: 20px;
+  bottom: 80px;
+}
+
+#gun {
+  width: 120px;
+  right: 120px;
+  top: 220px;
+}
+
+#jazz-cups {
+  width: 100px;
+  top: 20px;
+  right: 10px;
+}
+
+.pdf {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  height: 90%;
+}
+
+.pdf a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pdf img {
+  position: relative;
+  display: block;
+  max-height: 100%;
+  max-width: 80%;
+  z-index: -1;
+}

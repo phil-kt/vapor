@@ -1,0 +1,43 @@
+.win98 {
+  text-align: left;
+  z-index: 1;
+}
+
+
+.won98 .content {
+  padding: 0 8px 0 8px !important;
+}
+
+.buttons {
+  text-align: right;
+}
+
+.button-container {
+  text-align: right;
+  display: inline-block;
+}
+
+.button-container button {
+  width: 75px;
+}
+
+.button-container .alternative button {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)  {
+  .window {
+    width: 300px !important;
+  }
+
+  .header .buttons{
+    position: absolute;
+    top: 2px;
+    right: 4px;
+  }
+}

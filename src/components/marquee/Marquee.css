@@ -1,0 +1,38 @@
+.marquee-container {
+  margin: 40px 0;
+}
+
+.marquee {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.marquee:hover, .marquee:active {
+  animation-play-state: paused;
+}
+
+.marquee img {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.marquee-left {
+  animation: marquee-left 10s linear infinite;
+}
+
+.marquee-right {
+  animation: marquee-right 10s linear infinite;
+}
+
+@keyframes marquee-left {
+  0% { left: 100%; }
+  100% { left: -100%; }
+}
+
+
+@keyframes marquee-right {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+

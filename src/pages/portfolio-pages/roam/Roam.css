@@ -1,0 +1,15 @@
+.roam .screens {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.roam .screens div {
+  min-width: 0;
+}
+
+.roam .screens img {
+  width: auto;
+  height: auto;
+}
