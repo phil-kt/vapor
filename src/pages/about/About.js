@@ -35,7 +35,7 @@ class About extends Component {
           <Link to="/" className="nav">home</Link>
           <Link to="/portfolio" className="nav">portfolio</Link>
           <Link to="/resume" className="nav">resume</Link>
-          <a href="http://philkt.me/my-work/" className="nav">escape</a>
+          <a href="http://philkt.me/" className="nav">escape</a>
         </nav>
         <Marquee content="22/m/atlanta+nyc" direction="left" delay="-5" img={asl}/>
         <Marquee img={gear}

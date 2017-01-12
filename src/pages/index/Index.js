@@ -72,7 +72,7 @@ class Index extends Component {
           </p>
 
           <p>
-            <a href="http://www.philkt.me/my-work">hate this site? click here</a>
+            <a href="http://www.philkt.me/">hate this site? click here</a>
           </p>
         </div>
       </div>

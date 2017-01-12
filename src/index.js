@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, browserHistory } from 'react-router';
+import { Router, Route, browserHistory, hashHistory } from 'react-router';
 
 var ReactGA = require('react-ga');
 ReactGA.initialize('UA-36903668-2');
@@ -30,7 +30,7 @@ function logPageView() {
 }
 
 ReactDOM.render((
-  <Router history={browserHistory}
+  <Router history={hashHistory}
           onUpdate={logPageView}>
     <Route path="/" component={App}/>
     {/* add the routes here */}

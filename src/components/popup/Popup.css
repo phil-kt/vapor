@@ -4,10 +4,6 @@
 }
 
 
-.won98 .content {
-  padding: 0 8px 0 8px !important;
-}
-
 .buttons {
   text-align: right;
 }
@@ -17,14 +13,16 @@
   display: inline-block;
 }
 
-.button-container button {
+.button-container .options {
   width: 75px;
 }
 
+/*
 .button-container .alternative button {
   width: 100px;
   margin-right: 10px;
 }
+*/
 
 .hidden {
   display: none;

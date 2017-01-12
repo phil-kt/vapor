@@ -47,14 +47,9 @@ class Popup extends Component {
             <div className="content">
               {this.props.content}
               <div className="buttons">
-                <p className="button-container">
-                  <a href="http://philkt.me/my-work" className="alternative">
-                    <button>Alternative Site</button>
-                  </a>
-                </p>
-                <p className="button-container">
-                  <button onClick={this.destroy.bind(this)}>OK</button>
-                </p>
+                <div className="button-container">
+                  <button className="options" onClick={this.destroy.bind(this)}>OK</button>
+              </div>
               </div>
             </div>
           </div>

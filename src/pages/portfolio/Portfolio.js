@@ -29,7 +29,7 @@ class Portfolio extends Component {
           <Link to="/" className="nav">home</Link>
           <Link to="/about" className="nav">about</Link>
           <Link to="/resume" className="nav">resume</Link>
-          <a href="http://philkt.me/my-work/" className="nav">escape</a>
+          <a href="http://philkt.me/" className="nav">escape</a>
         </nav>
         <PortfolioIcon title="dots" icon={dots} link="/portfolio/dots" delay="-5" description="art video"/>
         <PortfolioIcon title="roam" icon={roam} link="/portfolio/roam" delay="-50" description="data with no 4G/3G"/>

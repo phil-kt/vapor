@@ -20,7 +20,7 @@ class Resume extends Component {
           <Link to="/" className="nav">home</Link>
           <Link to="/about" className="nav">about</Link>
           <Link to="/portfolio" className="nav">portfolio</Link>
-          <a href="http://philkt.me/my-work/">escape</a>
+          <a href="http://philkt.me/" className="nav">escape</a>
         </nav>
         <img src={hamtaro} alt="hamtaro eating noodles" id="hamtaro" />
         <img src={dinosaur} alt="rad dino on keyboard" id="dinosaur"/>
@@ -34,7 +34,7 @@ class Resume extends Component {
           <img src={simpsons} alt="lisa watching ralph roll away" id="simpsons"/>
         </a>
         <div className="pdf">
-          <a href={process.env.PUBLIC_URL + 'philippe_kimura-thollander_resume.pdf'} target="_blank">
+          <a href={process.env.PUBLIC_URL + '/philippe_kimura-thollander_resume.pdf'} target="_blank">
             <img src={resume} alt="click for my resume" />
           </a>
         </div>
